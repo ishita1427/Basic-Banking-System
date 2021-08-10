@@ -1,0 +1,290 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0px;
+}
+
+#transaction,
+#transferto,
+#contactus {
+  background: url("images/Homepage.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+#contactus {
+  background: url("images/Homepage.jpg") no-repeat center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+#about {
+  background: url("images/Homepage.jpg") no-repeat center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+body.home {
+  background: url("images/Homepage.jpg");
+  background-size: cover;
+}
+
+header {
+  padding: 20px;
+  background-color: rgb(0, 0, 0);
+}
+
+nav a {
+  text-decoration: none;
+  text-align: end;
+  padding: 10px;
+  margin-right: 6px;
+  float: right;
+  color: white;
+  font-size: 130%;
+  border-radius: 10px;
+}
+
+nav {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+header span {
+  font-size: 150%;
+  color: beige;
+  text-align: center;
+}
+
+#wel {
+  margin-top: 10px;
+  margin-left: 580px;
+  border-radius: 2%;
+}
+
+#tsf {
+  margin-left: 10px;
+  color: white;
+  font-size: 200%;
+}
+#welcome {
+  font-size: 400%;
+  color: black;
+  font-weight: 500;
+}
+
+#subline {
+  font-size: 150%;
+  font-style: oblique;
+  font-weight: 600;
+}
+
+#option1 {
+  border-radius: 30%;
+  font-size: 150%;
+  font-weight: 700;
+  margin-left: 30%;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.9%;
+  float: left;
+  width: 18%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+#option2 {
+  border-radius: 30%;
+  font-size: 150%;
+  font-weight: 700;
+  margin-left: 2%;
+  margin-top: 5%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.8%;
+  float: left;
+  width: 18%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+}
+#text {
+  color: white;
+  font-size: 80%;
+  margin-left: 20%;
+}
+#text2 {
+  color: white;
+  font-size: 110%;
+  margin-left: 4%;
+}
+#text3 {
+  color: white;
+  font-size: 80%;
+  margin-left: 27%;
+}
+#text:hover {
+  color: red;
+}
+#text3:hover {
+  color: red;
+}
+#text1 {
+  color: white;
+  font-size: 80%;
+  margin-left: 20%;
+}
+img {
+  border-radius: 50%;
+  margin-left: 10%;
+  justify-content: center;
+}
+footer {
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+#foot {
+  text-align: center;
+  color: white;
+}
+
+#labdiv {
+  margin-left: 15%;
+  margin-top: 3%;
+  font-weight: 500;
+  font-size: 150%;
+}
+
+#sel {
+  width: 82%;
+  font-weight: 500;
+  font-size: 70%;
+  background-color: rgba(228, 236, 184, 0.945);
+}
+#field {
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#con {
+  margin-top: 5%;
+  margin-left: 25%;
+  text-align: left;
+  font-size: x-large;
+  justify-content: center;
+}
+
+#txt {
+  color: red;
+  font-size: large;
+  margin-left: 5%;
+  margin-right: 10%;
+  width: 50%;
+}
+
+#button {
+  margin-left: 25%;
+  font-weight: 500;
+  font-size: 70%;
+  background-color: black;
+  color: white;
+  padding: 1%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#abouthead {
+  margin-left: 38%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 50px;
+  font-weight: 800;
+  color: black;
+  text-decoration: underline overline;
+}
+
+#content {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-size: 25px;
+  font-weight: 400;
+  color: white;
+}
+
+#boxx {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+#now {
+  font-size: 50px;
+  font-weight: 800;
+  margin-left: 400px;
+  color: black;
+  text-decoration: underline overline;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url("images/Homepage.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+/* navbar css ends here  */
+#main {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-info {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  color: white !important;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  border-radius: 5%;
+  padding: 1rem;
+  font-size: 30px;
+  font-weight: 400;
+  transition: all 0.3s;
+}
+
+.btn-info:hover {
+  background-color: black !important;
+  color: white;
+}
+.table-odd {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: 1px;
+  border-color: black;
+}
+.table-even {
+  background-color: rgba(252, 252, 252, 0.5);
+  color: black;
+  border: 1px;
+  border-color: white;
+}
+.table-dang {
+  background-color: white;
+  color: white;
+}
